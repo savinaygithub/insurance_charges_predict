@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route("/")   # Home API
 def hello_flask():
-    print("Welcome to flask")
+    print("Welcome to flask this is home api")
     # return "Hello Python"
     return "Hello savinay"
     
