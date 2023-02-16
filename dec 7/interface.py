@@ -11,7 +11,7 @@ app = Flask(__name__)
 @app.route("/")   # Home API
 def hello_flask():
     print("Welcome to flask")
-    #return "Hello Python"
+    # return "Hello Python"
     return "Hello savinay"
     
 
@@ -22,7 +22,7 @@ def hello_flask():
 def get_insurance_charges():
 
     
-    age  = 19
+    age  = 34
     sex  = 'male'
     bmi  = 25 
     children = 2
